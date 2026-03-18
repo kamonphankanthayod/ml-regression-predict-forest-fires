@@ -6,7 +6,7 @@ This is part of the course cs372.
 ## เกี่ยวกับโปรเจกต์ (About This Project)
 โปรเจกต์นี้เป็นการนำโมเดล Machine Learning อัลกอริทึม **Linear Regression** มาใช้สำหรับทำนายขนาดพื้นที่ป่าที่ถูกไฟไหม้ (`area`) โดยอิงจากปัจจัยทางอุตุนิยมวิทยาและตัวชี้วัดความชื้นของป่า 
 
-โปรเจกต์นี้อ้างอิงและถูกพัฒนาเพิ่มเติม (Amplify) จากไฟล์ตัวอย่าง `[linear_regression_assignment_for_students.ipynb](https://colab.research.google.com/drive/1TiEk1nXY-6CD9nOQfmkentShBm9FIFUn?usp=sharing)` โดยจัดทำขึ้นเพื่อการศึกษาในรายวิชา **CS372** เท่านั้น
+โปรเจกต์นี้อ้างอิงและถูกพัฒนาเพิ่มเติม (Amplify) จากไฟล์ตัวอย่าง [linear_regression_assignment_for_students.ipynb](https://colab.research.google.com/drive/1TiEk1nXY-6CD9nOQfmkentShBm9FIFUn?usp=sharing) โดยจัดทำขึ้นเพื่อการศึกษาในรายวิชา **CS372** เท่านั้น
 
 **ผู้จัดทำ:** กมลพันธ์ กันธายอด 6609520116
 
@@ -53,3 +53,6 @@ This is part of the course cs372.
 2. แนะนำให้สร้าง Virtual Environment และติดตั้งไลบรารีที่จำเป็น:
    ```bash
    pip install numpy pandas matplotlib scikit-learn
+   ```
+3. เปิดไฟล์ linear_regression_forestfires.ipynb ผ่าน Jupyter Notebook, JupyterLab หรือ Google Colab
+4. รันโค้ดตั้งแต่เซลล์แรกไปจนถึงเซลล์สุดท้าย (Run All)
